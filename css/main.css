@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media only screen and (min-device-width: 1281px) {
+  html {
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out; } }
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.25s 0.25s ease;
+  opacity: 0; }
+
+body {
+  margin: 0; }
+
+ol, ul {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #707373;
+  margin: .15em 0;
+  font-weight: 400; }
+
+hr {
+  margin: .3em 0;
+  width: 100%;
+  height: 1px;
+  border-width: 0;
+  background-color: #ddd; }
+
+img {
+  border: none;
+  /*padding: .1em; 
+  max-width: 100%; */ }
+
+textarea {
+  resize: none; }
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+textarea,
+select {
+  padding: .3em; }
+
+select {
+  width: 180px;
+  max-width: 100%; }
+
+p {
+  cursor: default; }
+
+input[type=checkbox] {
+  vertical-align: baseline !important; }
+
+.clear {
+  clear: both; }
+
+.float-left {
+  float: left !important; }
+
+.float-right {
+  float: right !important; }
+
+.float-none {
+  float: none !important; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-display {
+  display: none; }
+
+.no-margin {
+  margin: 0 !important; }
+
+html {
+  background-image: url(../img/p/struckaxiom.png);
+  background-image: url(../img/p/ps_neutral.png);
+  background-image: url(../img/p/geometry.png); }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+  @media only screen and (min-device-width: 1281px) {
+    a {
+      text-shadow: 0 0 1px #eee;
+      -webkit-transition: all 0.18s ease-out;
+      -moz-transition: all 0.18s ease-out;
+      -o-transition: all 0.18s ease-out;
+      transition: all 0.18s ease-out; } }
+
+.width-1of2 {
+  width: 50%;
+  float: left; }
+
+.page-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 6px 0px #858585;
+  box-shadow: 0px 0px 6px 0px #858585; }
+
+.coming-soon {
+  background-color: #fff; }
+  .coming-soon .stock-image {
+    overflow: hidden; }
+    .coming-soon .stock-image img {
+      display: block;
+      max-height: 500px; }
+  .coming-soon .logo {
+    background-color: #fff; }
+    .coming-soon .logo img {
+      padding-top: 2em;
+      height: 370px;
+      margin: 0 auto;
+      display: block; }
+  .coming-soon p {
+    font-family: 'Patua One', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin: 0 auto;
+    color: #d3995a;
+    text-shadow: 1px 1px 2px #9e9e9e; }
+  .coming-soon .for-android {
+    color: #8cc63e;
+    font-size: 2em; }
+
+.email-launch {
+  background-color: #666;
+  padding: 1em 2em 2em 2em; }
+  .email-launch p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #fff; }
+  .email-launch .email-input-field {
+    border: 1px solid #dadada;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 1em;
+    width: 100%;
+    max-width: 20em; }
+  .email-launch input[type="submit"] {
+    font-family: 'Patua One', cursive;
+    font-size: 1em;
+    color: #8B571E;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#dfdfdf));
+    background-image: -webkit-linear-gradient(top, white, #dfdfdf);
+    background-image: -moz-linear-gradient(top, white, #dfdfdf);
+    background-image: -o-linear-gradient(top, white, #dfdfdf);
+    background-image: linear-gradient(to bottom, white, #dfdfdf);
+    border: 1px solid #adadad;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: .4em 1em; }
+
+.about {
+  padding: 1em 2em 2em 2em;
+  background-color: #fff; }
+  .about h1 {
+    color: #8cc63e;
+    font-size: 3em;
+    font-family: 'Patua One', cursive; }
+  .about p {
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+    color: #777; }
+
+.footer {
+  font-family: 'Roboto Slab', serif;
+  padding: 1em 2em .5em 2em;
+  background: #8cc63e;
+  color: #fff; }
+  .footer h2 {
+    color: #fff; }
+
+.footer, .about, .email-launch {
+  background-image: url(../img/shadow.png);
+  background-repeat: repeat-x; }
