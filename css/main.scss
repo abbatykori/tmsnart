@@ -1,8 +1,7 @@
 @import "_imports.scss";
+@import "_font.scss";
 
 html{
-	background-image: url(../img/p/struckaxiom.png);
-	background-image: url(../img/p/ps_neutral.png);
 	background-image: url(../img/p/geometry.png);
 }
 a { 
@@ -15,25 +14,28 @@ a {
 		       -o-transition: all 0.18s ease-out; 
 		          transition: all 0.18s ease-out; 
 		      }
-	//border-bottom: 1px solid transparent;
-		//color: #99C43D !important;
+ 	color: #fff;
+	border-bottom: 1px solid #fff;
 	&:hover {
-		//border-bottom: 1px solid #C4953D;
-		//color: #C4953D !important;	
+		border-bottom: 1px dashed #f2f2f2;
+		color: #f2f2f2;
 	}
-	&:focus {
-		//border-bottom: 1px solid #785B25;
-		//color: #785B25 !important;	
+	&:focus {	
+		border-bottom: 1px dotted #ececec;
+		color: #ececec;
 	}
-	&:active {
-		//border-bottom: 1px solid #99C43D;
-		//color: #99C43D !important;	
+	&:active {	
+		border-bottom: 1px dotted #ececec;
+		color: #ececec;
 	}
 }
 
 .width-1of2 {
 	width: 50%;
 	float: left;
+	@media all and (max-width: 839px) {
+		width: 100%;
+	}
 }
 
 
@@ -49,11 +51,17 @@ a {
 
 .coming-soon{
 	background-color: #fff;
+	padding-bottom: 1em;
 	.stock-image{
 		overflow: hidden;
 		img{
 			display: block;
 			max-height: 500px;
+			margin: 0 auto;
+		@media all and (max-width: 839px) {
+			max-height: 100%;
+			width: 100%;
+		}
 		}
 	}
 	.logo{		
@@ -63,6 +71,10 @@ a {
 		height: 370px;
 		margin: 0 auto;
 		display: block;
+		@media all and (max-width: 839px) {
+			height: 100%;
+			width: 50%;
+		}
 		}
 }
 	p {
@@ -72,14 +84,30 @@ a {
 		margin: 0 auto;
 		color: #d3995a;
 		text-shadow: 1px 1px 2px #9e9e9e;
+		@media all and (max-width: 839px) {
+			font-size: 2.3em;
+		}
 	}
 	.for-android{
 		color: #8cc63e;
 		font-size: 2em;
+		@media all and (max-width: 839px) {
+			font-size: 1.5em;
+		}
 	}
 }
+#email-collection{
+	-webkit-transition: all 0.3s ease-out; 
+	   -moz-transition: all 0.3s ease-out; 
+	     -o-transition: all 0.3s ease-out; 
+	        transition: all 0.3s ease-out;
+}
 .email-launch{
+	position: relative;
+	
 	background-color: #666;	
+	background-image: url(../img/p/escheresque_ste.png);
+	background-repeat: repeat;
 	padding: 1em 2em 2em 2em;
 	p{
 		font-family: 'Roboto Slab', serif;	
@@ -110,6 +138,21 @@ a {
 				border-radius: 4px;
 		padding: .4em 1em;
 	}
+	.loader {		
+		display: inline-block;
+		vertical-align: middle;
+		img {
+			margin: .5em 0;
+		}
+	}
+	.e-recieved{
+		color: #fff;
+		font-family: 'Roboto Slab', serif;
+		font-size: 1.2em;
+	}
+	.e-success{
+		color: #8cc63e;
+	}
 }
 
 .about{
@@ -132,12 +175,12 @@ a {
 	padding: 1em 2em .5em 2em;
 	background: #8cc63e;
 	color: #fff;
-	h2{
+	h1{
 		color: #fff;
 	}
 }
 
-.footer, .about, .email-launch {
-	background-image: url(../img/shadow.png);
+.footer, .about {
+	background-image: url(../img/p/shadow.png);
 	background-repeat: repeat-x;
 }
