@@ -5,21 +5,21 @@ function post($key) {
     return false;
 }
 
-$mysql = new mysqli ('localhost', 'root', '', 'pre_launch_emails') or die ('cannot connect to db');
-
-if (!post('emailx'))
-   exit;
-
+$mysql = new mysqli ('localhost', 'transmt1', '1brah1m', 'coming-soon') or die ('cannot connect to db');
+echo "<br>Connection Succesful";
+//if (!post('emailx'))
+//   exit;
+//echo "<br>TextField isn't empty";
 $email_address=$_POST['emailx'];
 
 $email_address = mysql_real_escape_string($email_address);
 $email_address = htmlspecialchars ($email_address);
-echo $email_address;
-echo $query;
-$query = "INSERT INTO EMAILS VALUES ('','$email_address')";
+echo "<br>Value for email: ".$email_address;
+$query = "INSERT INTO emails VALUES ('','$email_address')";
+echo "<br>Query: ".$query;
 if ($updateDB = $mysql-> query("$query") or die ($mysql->error)){
 		 echo $email_address;	
 	}
-
+$mysql->close();
 
  ?>

@@ -1,0 +1,36 @@
+[21-Nov-2013 23:41:23 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/db_api.php on line 15
+[21-Nov-2013 23:41:23 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/db_api.php on line 15
+[21-Nov-2013 23:53:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 69
+[21-Nov-2013 23:53:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 69
+[22-Nov-2013 15:34:04 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'transmt'@'localhost' (using password: YES) in /home/trnsmt/public_html/db_api.php on line 8
+[22-Nov-2013 15:34:04 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 15:34:04 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 15:34:04 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/trnsmt/public_html/db_api.php on line 20
+[22-Nov-2013 15:34:04 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/trnsmt/public_html/db_api.php on line 20
+[22-Nov-2013 15:41:59 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 15:41:59 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 15:57:30 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 15:57:30 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 16:00:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:00:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:09:10 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:09:10 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:10:13 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:10:13 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:10:55 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:10:55 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:11:53 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:11:53 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:13:19 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:13:19 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:13:19 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/trnsmt/public_html/index.php on line 77
+[22-Nov-2013 16:13:47 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:13:47 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:14:32 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:14:32 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/index.php on line 68
+[22-Nov-2013 16:16:24 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 16:16:24 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 16:18:02 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'mgaspar'@'localhost' (using password: NO) in /home/trnsmt/public_html/db_api.php on line 15
+[22-Nov-2013 16:18:02 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/db_api.php on line 15
+[27-Nov-2013 20:40:51 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'trnsmt'@'localhost' (using password: NO) in /home/trnsmt/public_html/db_api.php on line 15
+[27-Nov-2013 20:40:51 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/trnsmt/public_html/db_api.php on line 15

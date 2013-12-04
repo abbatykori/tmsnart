@@ -4,12 +4,12 @@
 	include('head.php');
 ?>
 <body>
-	<div class="page-wrapper">
+	<div itemscope itemtype="http://transmt.com.ng/MobileApplication" class="page-wrapper">
 		<div class="coming-soon">
 			<div class="width-1of2 logo">
 				<img class="" src="img/transmt-Logo-with-shadow.png" alt="transmt-official-logo">
 				<p>Coming Soon</p>
-				<p class="for-android"><span>For Android</span></p>
+				<p class="for-android"><span>For <span itemprop="operatingSystem">Android</span></span></p>
 			</div>
 			<div class="width-1of2 stock-image">
 				<img src="img/stock.png" alt="Stock Image">
@@ -34,22 +34,35 @@
 		</div>
 		<div class="about">
 			<h1>About</h1>
-			<p>
-				Welcome to what will soon be the most intuitive Bulk SMS Application available.
-			</p> 
-			<p>
-				Are you tired of <i>painfully</i> copying in your contacts one after the other?
-				Well, so are we, and that's why we are building Transmt Bulk Messaging.
+			<meta itemprop="name" content="Transmt" />
+			<meta itemprop="applicationCategory" content="Communication" />
+			<meta itemprop="applicationSubCategory" content="Messaging" />
+			<meta itemprop="operatingSystem" content="Android" />
 
-			</p>
-			<p>
-				Sending Bulk Messages just got AWESOME!
-			</p>
-			<p>
-				Transmt Bulk Messaging should be avaiable soon.
+
+
+			<p itemscope itemprop="description" >
+				Welcome to what will soon be the most intuitive <span itemprop="keywords">Bulk SMS</span> Application available.
+			<br>
+            <br>
+				Are you tired of <i>painfully</i> copying in your contacts one after the other?
+				<br>
+				Do you wish to send large amounts of SMS effortlessly?
+				<br>
+				Are you looking for affordability without compromising quality?
+				<br><br>
+				These are among the reasons why we are building <span itemprop="alternateName">Transmt Bulk Messaging</span>.
+
+			<br>
+            <br>
+				Sending <span itemprop="keywords">>Bulk Messages</span> just got AWESOME!
+			<br>
+            <br>
+				Transmt Bulk Messaging should be avaiable soon on Android.
 			</p>
 		</div>
 		<?php include('footer.php') ?>
 	</div>
+
 </body>
 </html>

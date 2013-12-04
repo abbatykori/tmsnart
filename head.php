@@ -1,11 +1,12 @@
 <head>
 	<meta charset="UTF-8">
-	<script src='js/jquery.min.js'></script>
-	<script src='js/fx.js'></script>
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Patua+One|Roboto+Slab' rel='stylesheet' type='text/css'>
 
+	<script src='js/jquery.min.js'></script>
+	<script src='js/fx.js'></script>
+	
 	
 	<link rel="apple-touch-icon" href="touchicon.png">
 	<link rel="icon" href="favicon.png">
